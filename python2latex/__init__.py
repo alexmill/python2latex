@@ -11,4 +11,4 @@ from .plot import Plot, LinePlot, MatrixPlot
 from .template import Template
 from .table import Table, Tabular
 
-from version import __version__
+__version__ = '0.4.1'
