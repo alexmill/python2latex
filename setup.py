@@ -1,12 +1,11 @@
 import setuptools
-from version import __version__
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="python2latex",
-    version=__version__,
+    version="0.4.1",
     author="Jean-Samuel Leboeuf",
     author_email="jean-samuel.leboeuf.1@ulaval.ca",
     description="A Python to LaTeX converter",
